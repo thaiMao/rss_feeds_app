@@ -1,6 +1,7 @@
 A web app that allows the user to search for a url and retrieve feeds.
 
-![Alt text](/iamges/app.gif?raw=true "RSS")
+![Alt text](/images/app.gif?raw=true "RSS")
+
 
 The sidebar allows the user to browse and select previously searched urls. 
 
