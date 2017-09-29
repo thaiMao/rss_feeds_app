@@ -19,6 +19,8 @@ Array.prototype.reverse method is used to ensure the latest searched url is disp
 
 Ideas for improvements:
 
+The description data needs to be html parsed before being displayed. The date needs to be formatted.
+
 Generate a unique ID using and assign it to each url history object and feed retrieved.
 
 Then use the unique ID to identify the user selected url and then show the feeds for that url.
