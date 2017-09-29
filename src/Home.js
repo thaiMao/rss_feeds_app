@@ -24,7 +24,7 @@ class Home extends Component {
 }
 
 const AppContainer = styled.div`
-  background-color: #FFF;
+  background-color: #F4F8FB;
   display: grid;
   height: 100vh;
   grid-gap: 2%;
@@ -42,7 +42,7 @@ const AppContainer = styled.div`
 `
 
 const SidebarContainer = styled.div`
-  border-right: 1px solid black;
+  border-right: 1px solid #DCDCDC;
   grid-area: sidebar;
   display: flex;
   flex-direction: column;

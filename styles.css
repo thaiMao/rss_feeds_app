@@ -1,3 +1,8 @@
 body {
   margin: 0;
+  background: #F4F8FB;
+}
+
+.delete-icon:hover {
+  background: #FFF;
 }

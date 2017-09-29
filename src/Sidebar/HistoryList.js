@@ -32,6 +32,7 @@ class HistoryList extends Component {
                 key={url}>{url.slice(11, url.length)}<Delete>
                   <FontIcon
                     style={{ fontSize: '16px' }}
+                    color='#498EB9'
                     onClick={() => this.handleClickRemoveUrl(url)}
                     className='material-icons'>highlight_off</FontIcon>
                 </Delete>
@@ -77,9 +78,8 @@ const HistoryContainer = styled.div`
 
 const Button = styled.button`
   margin-top: 8%;
-  border: 1px solid black;
+  border: 1px solid #498EB9;
   border-radius: 4px;
-  background: lightblue;
   position: relative;
   text-align: center;
   font-size: 16px;
@@ -87,9 +87,11 @@ const Button = styled.button`
   width: 100%;
   transition: background 0.12s;
   &:hover {
-    background: white; 
-    cursor: pointer; 
+    cursor: pointer;
   }
+  color: #498EB9;
+  font-weight: 600;
+  background: #FFF;
 `
 
 const Delete = styled.div`

@@ -20,8 +20,8 @@ FeedItem.propTypes = {
 }
 
 const Item = styled.div`
-	border: 1px solid black;
-  border-radius: 2px;
+	border: 1px solid #DCDCDC;
+  border-radius: 4px;
 	flex: 1;
 	margin-right: 3%;
   margin-bottom: 3%;
@@ -29,6 +29,7 @@ const Item = styled.div`
   flex-direction: column;
   justify-content: start;
   align-items: start;
+  background: #FFF;
   
 `
 

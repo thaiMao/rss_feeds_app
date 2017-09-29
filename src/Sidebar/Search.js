@@ -62,7 +62,7 @@ const mapDispatchToProps = dispatch => ({
 })
 
 const SearchContainer = styled.div`
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #DCDCDC;
   flex: 0 0 80px;
   display: flex;
   flex-direction: row;
@@ -71,23 +71,30 @@ const SearchContainer = styled.div`
 `
 
 const Input = styled.input`
-  border: 1px solid black;
+  border: 1px solid #DCDCDC;
   border-radius: 4px;
   height: 50%;
   width: 60%;
   margin: 8px;
-  font-size: 10px;
+  font-size: 12px;
   text-align: center;
+  color: #424244;
 `
 
 const Submit = styled.button`
-  border: 1px solid black;
+  border: 1px solid #498EB9;
   border-radius: 4px;
   height: 50%;
   margin: 8px;
+  transition: background 0.16s;
   &:hover {
     cursor: pointer;
+    color: #FFF;
+    background: #498EB9; 
   }
+  color: #498EB9;
+  font-weight: 600;
+  background: #FFF;
 `
 
 export default connect(mapStateToProps, mapDispatchToProps)(Search)

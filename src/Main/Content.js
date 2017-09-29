@@ -56,6 +56,7 @@ const ContentContainer = styled.div`
 
 const Header = styled.h2`
   flex: 0 0 60px;
+  color: #424244;
 `
 
 export default connect(mapStateToProps)(Content)
